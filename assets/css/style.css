@@ -12,10 +12,104 @@
 
 
 body {
-    width: 100%;
-    height: 100%;
 }
+
 #background {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+}
+
+#partOne {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partTwo {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partThree {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partFour {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partFive {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partSix {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partSeven {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partEight {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partNine {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partTen {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partEleven {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partTwelve {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
+}
+#partThirteen {    
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -888;
 }
