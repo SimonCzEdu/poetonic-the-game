@@ -27,91 +27,91 @@
 
 /* Parts */
 #partOne {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -888;
 }
 #partTwo {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -888;
 }
 #partThree {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -887;
 }
 #partFour {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -886;
 }
 #partFive {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -885;
 }
 #partSix {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -884;
 }
 #partSeven {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -883;
 }
 #partEight {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -882;
 }
 #partNine {
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -881;
 }
 #partTen {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -880;
 }
 #partEleven {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -879;
 }
 #partTwelve {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -878;
 }
 #partThirteen {    
-    display: flex;
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
