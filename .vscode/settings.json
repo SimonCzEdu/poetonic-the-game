@@ -29,13 +29,18 @@
    },
    "cSpell.words": [
       "bckground",
+      "Iconify",
       "sloppi",
-      "sooooo"
+      "sooooo",
+      "Welp"
    ],
    "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
    },
    "[javascript]": {
       "editor.defaultFormatter": "vscode.typescript-language-features"
+   },
+   "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
    }
 }
