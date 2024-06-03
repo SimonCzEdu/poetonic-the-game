@@ -106,6 +106,7 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
+    z-index: 1;
 
     .allHighlights {
         position: fixed;
@@ -121,199 +122,303 @@
     }
 
     #highlightOne {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightOneDiv {
-            width: 10.4%;
-            height: 17.4%;
-            top: 39.6%;
-            left: 28.5%;
-            position: absolute;
-        }
+    #highlightOneDiv {
+        width: 10.4%;
+        height: 17.4%;
+        top: 39.6%;
+        left: 28.5%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightOneImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
+
     }
 
     #highlightTwo {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightTwoDiv {
-            width: 8.8%;
-            height: 24.3%;
-            top: 17.6%;
-            left: 15%;
-            position: absolute;
-        }
+    #highlightTwoDiv {
+        width: 8.8%;
+        height: 24.3%;
+        top: 17.6%;
+        left: 15%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightTwoImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightThree {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightThreeDiv {
-            width: 7.8%;
-            height: 11.2%;
-            top: 23.8%;
-            left: 29%;
-            position: absolute;
-        }
+    #highlightThreeDiv {
+        width: 7.8%;
+        height: 11.2%;
+        top: 23.8%;
+        left: 29%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightThreeImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightFour {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightFourDiv {
-            width: 6.8%;
-            height: 24.3%;
-            top: 64%;
-            left: 3.4%;
-            position: absolute;
-        }
+    #highlightFourDiv {
+        width: 6.8%;
+        height: 24.3%;
+        top: 64%;
+        left: 3.4%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightFourImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightFive {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightFiveDiv {
-            width: 2.96%;
-            height: 10.49%;
-            top: 52.7%;
-            left: 41.7%;
-            position: absolute;
-        }
+    #highlightFiveDiv {
+        width: 2.96%;
+        height: 10.49%;
+        top: 52.7%;
+        left: 41.7%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightFiveImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightSix {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightSixDiv {
-            width: 1.47%;
-            height: 7%;
-            top: 52%;
-            left: 48.6%;
-            position: absolute;
-        }
+    #highlightSixDiv {
+        width: 1.47%;
+        height: 7%;
+        top: 52%;
+        left: 48.6%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
 
+    #highlightSixImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightSeven {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightSevenDiv {
-            width: 5.7%;
-            height: 9.9%;
-            top: 28%;
-            left: 46.3%;
-            position: absolute;
-        }
+    #highlightSevenDiv {
+        width: 5.7%;
+        height: 9.9%;
+        top: 28%;
+        left: 46.3%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightSevenImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightEight {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightEightDiv {
-            width: 3.9%;
-            height: 11%;
-            top: 51.8%;
-            left: 44.7%;
-            position: absolute;
-        }
+    #highlightEightDiv {
+        width: 3.9%;
+        height: 11%;
+        top: 51.8%;
+        left: 44.7%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
 
+    #highlightEightImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightNine {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightNineDiv {
-            width: 1.9%;
-            height: 12.8%;
-            top: 56%;
-            left: 51%;
-            position: absolute;
-        }
+    #highlightNineDiv {
+        width: 1.9%;
+        height: 12.8%;
+        top: 56%;
+        left: 51%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightNineImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightTen {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightTenDiv {
-            width: 3%;
-            height: 12%;
-            top: 70%;
-            left: 45.4%;
-            position: absolute;
-        }
+    #highlightTenDiv {
+        width: 3%;
+        height: 12%;
+        top: 70%;
+        left: 45.4%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightTenImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightEleven {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightElevenDiv {
-            width: 7.4%;
-            height: 16.2%;
-            top: 37%;
-            left: 53%;
-            position: absolute;
-        }
+    #highlightElevenDiv {
+        width: 7.4%;
+        height: 16.2%;
+        top: 37%;
+        left: 53%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightElevenImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightTwelve {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightTwelveDiv {
-            width: 4.7%;
-            height: 12.2%;
-            top: 60%;
-            left: 16%;
-            position: absolute;
-        }
+    #highlightTwelveDiv {
+        width: 4.7%;
+        height: 12.2%;
+        top: 60%;
+        left: 16%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightTwelveImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightThirteen {
-        z-index: 1;
-        display: none;
+        z-index: auto;
+    }
 
-        #highlightThirteenDiv {
-            width: 4.7%;
-            height: 14.8%;
-            top: 68%;
-            left: 40.3%;
-            position: absolute;
-        }
+    #highlightThirteenDiv {
+        width: 4.7%;
+        height: 14.8%;
+        top: 68%;
+        left: 40.3%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightThirteenImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightFourteen {
-        display: none;
-        z-index: 1;
+        z-index: auto;
+    }
 
-        #highlightFourteenDiv {
-            width: 3.5%;
-            height: 7.5%;
-            top: 51%;
-            left: 3.3%;
-            position: absolute;
-        }
+    #highlightFourteenDiv {
+        width: 3.5%;
+        height: 7.5%;
+        top: 51%;
+        left: 3.3%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
+    }
+
+    #highlightFourteenImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
     }
 
     #highlightFifteen {
-        display: none;
-        z-index: 1;
+        z-index: auto;
+    }
 
-        #highlightFifteenDiv {
-            width: 6.6%;
-            height: 7.5%;
-            top: 44%;
-            left: 60.45%;
-            position: absolute;
-        }
+    #highlightFifteenImg {
+        visibility: hidden;
+        position: relative;
+        z-index: auto;
+    }
+
+    #highlightFifteenDiv {
+        width: 6.6%;
+        height: 7.5%;
+        top: 44%;
+        left: 60.45%;
+        position: absolute;
+        z-index: 200;
+        background: rgba(255, 0, 0, 0.285);
     }
 }
