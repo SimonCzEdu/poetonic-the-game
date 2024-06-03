@@ -24,6 +24,12 @@
    "workbench.colorTheme": "Default Dark Modern",
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify",
+   "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+   },
+   "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+   },
    "[css]": {
       "editor.defaultFormatter": "vscode.css-language-features"
    },
@@ -34,13 +40,7 @@
       "sooooo",
       "Welp"
    ],
-   "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-   },
-   "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-   },
-   "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
+   "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
    }
 }
