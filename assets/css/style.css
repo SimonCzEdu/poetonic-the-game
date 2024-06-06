@@ -19,6 +19,11 @@
     z-index: -999;
 }
 
+#mainImage {
+    width: 100%;
+    height: auto;
+}
+
 /* Parts */
 #partsContainer {
     display: flex;
@@ -145,7 +150,6 @@
             height: 23.6%;
             top: 18.3%;
             left: 15.3%;
-            background-color: 
         }
 
         #highlightTwoImg {
