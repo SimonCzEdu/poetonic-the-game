@@ -50,23 +50,23 @@ function highlightOneOff() {
         const paperSound = document.getElementById('paper')
         paperSound.loop = false;
         paperSound.play();
-    }
-    if (checksArray.includes('1') == false) {
-        checksArray.push('1')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('1') == false) {
+            checksArray.push('1')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
     highlightOne.addEventListener('click', checkedOne)
 }
@@ -84,23 +84,23 @@ function highlightTwoOff() {
         const paperSound = document.getElementById('paper')
         paperSound.loop = false;
         paperSound.play();
-    }
-    if (checksArray.includes('2') == false) {
-        checksArray.push('2')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('2') == false) {
+            checksArray.push('2')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightTwo.addEventListener('click', checkedTwo)
@@ -119,23 +119,23 @@ function highlightThreeOff() {
         const paperSound = document.getElementById('paper')
         paperSound.loop = false;
         paperSound.play();
-    }
-    if (checksArray.includes('3') == false) {
-        checksArray.push('3')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('3') == false) {
+            checksArray.push('3')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightThree.addEventListener('click', checkedThree)
@@ -154,23 +154,23 @@ function highlightFourOff() {
         const eyeSound = document.getElementById('eye')
         eyeSound.loop = false;
         eyeSound.play();
-    }
-    if (checksArray.includes('4') == false) {
-        checksArray.push('4')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('4') == false) {
+            checksArray.push('4')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightFour.addEventListener('click', checkedFour)
@@ -189,23 +189,23 @@ function highlightFiveOff() {
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
-    }
-    if (checksArray.includes('5') == false) {
-        checksArray.push('5')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('5') == false) {
+            checksArray.push('5')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightFive.addEventListener('click', checkedFive)
@@ -224,23 +224,23 @@ function highlightSixOff() {
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
-    }
-    if (checksArray.includes('6') == false) {
-        checksArray.push('6')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('6') == false) {
+            checksArray.push('6')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightSix.addEventListener('click', checkedSix)
@@ -259,23 +259,23 @@ function highlightSevenOff() {
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
-    }
-    if (checksArray.includes('7') == false) {
-        checksArray.push('7')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('7') == false) {
+            checksArray.push('7')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightSeven.addEventListener('click', checkedSeven)
@@ -294,23 +294,23 @@ function highlightEightOff() {
         const markerSound = document.getElementById('marker')
         markerSound.loop = false;
         markerSound.play();
-    }
-    if (checksArray.includes('8') == false) {
-        checksArray.push('8')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('8') == false) {
+            checksArray.push('8')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightEight.addEventListener('click', checkedEight)
@@ -327,23 +327,23 @@ function highlightNineOff() {
         const markerSound = document.getElementById('marker')
         markerSound.loop = false;
         markerSound.play();
-    }
-    if (checksArray.includes('9') == false) {
-        checksArray.push('9')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('9') == false) {
+            checksArray.push('9')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightNine.addEventListener('click', checkedNine)
@@ -362,23 +362,23 @@ function highlightTenOff() {
         const markerSound = document.getElementById('marker')
         markerSound.loop = false;
         markerSound.play();
-    }
-    if (checksArray.includes('10') == false) {
-        checksArray.push('10')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('10') == false) {
+            checksArray.push('10')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightTen.addEventListener('click', checkedTen)
@@ -397,23 +397,23 @@ function highlightElevenOff() {
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
-    }
-    if (checksArray.includes('11') == false) {
-        checksArray.push('11')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('11') == false) {
+            checksArray.push('11')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightEleven.addEventListener('click', checkedEleven)
@@ -433,23 +433,23 @@ function highlightTwelveOff() {
         const stapleSound = document.getElementById('staple')
         stapleSound.loop = false;
         stapleSound.play();
-    }
-    if (checksArray.includes('12') == false) {
-        checksArray.push('12')
-    }
-    if (checksArray.length >= 12) {
-        document.body.innerHTML = `
-        <div id="hiddenDiv">
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
-            <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
-            <img src="assets/image/Scene2/Background.jpg"
-                alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
-            <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkOne" class="linkImg">
-            <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
-                id="linkTwo" class="linkImg">
-        </div>
-        `
+        if (checksArray.includes('12') == false) {
+            checksArray.push('12')
+        }
+        if (checksArray.length >= 12) {
+            document.body.innerHTML = `
+            <div id="hiddenDiv">
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=1" id="linkButtonOne" class="linkButtons"></a>
+                <a href="https://pay.nmkr.io/?p=d28f414c03b749669d0a591a996d769c&c=3" id="linkButtonTwo" class="linkButtons"></a>
+                <img src="assets/image/Scene2/Background.jpg"
+                    alt="Welp, here should be a second screen with your links, but due to the fact I can't control your life... you are using a browser that can not display it. Use Chrome like everyone else.">
+                <img src="assets/image/Scene2/Button1-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkOne" class="linkImg">
+                <img src="assets/image/Scene2/Button2-Fix.png" alt="No picture? Well, use chrome or similar browser."
+                    id="linkTwo" class="linkImg">
+            </div>
+            `
+        }
     }
 
     highlightTwelve.addEventListener('click', checkedTwelve)
