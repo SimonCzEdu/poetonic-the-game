@@ -40,7 +40,7 @@
         height: auto;
         justify-self: center;
         align-self: center;
-        visibility: hidden;
+        opacity: 0;
     }
 
     img {
@@ -54,67 +54,67 @@
 
     #partOne {
         z-index: -889;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partTwo {
         z-index: -888;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partThree {
         z-index: -887;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partFour {
         z-index: -886;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partFive {
         z-index: -885;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partSix {
         z-index: -884;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partSeven {
         z-index: -883;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partEight {
         z-index: -882;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partNine {
         z-index: -881;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partTen {
         z-index: -880;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partEleven {
         z-index: -879;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partTwelve {
         z-index: -878;
-        visibility: hidden;
+        opacity: 0;
     }
 
     #partThirteen {
         z-index: -877;
-        visibility: hidden;
+        opacity: 0;
     }
 }
 
