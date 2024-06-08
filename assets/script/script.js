@@ -1,16 +1,44 @@
 let checksArray = [];
 
+const highlightOne = document.getElementById(`highlightOneImg`);
+const highlightTwo = document.getElementById(`highlightTwoImg`);
+const highlightThree = document.getElementById(`highlightThreeImg`);
+const highlightFour = document.getElementById(`highlightFourImg`);
+const highlightFive = document.getElementById(`highlightFiveImg`);
+const highlightSix = document.getElementById(`highlightSixImg`);
+const highlightSeven = document.getElementById(`highlightSevenImg`);
+const highlightEight = document.getElementById(`highlightEightImg`);
+const highlightNine = document.getElementById(`highlightNineImg`);
+const highlightTen = document.getElementById(`highlightTenImg`);
+const highlightEleven = document.getElementById(`highlightElevenImg`);
+const highlightTwelve = document.getElementById(`highlightTwelveImg`);
+const highlightThirteen = document.getElementById(`highlightThirteenImg`);
+const highlightFourteen = document.getElementById(`highlightFourteenImg`);
+const highlightFifteen = document.getElementById(`highlightFifteenImg`);
+
+
+// Pointer elements identification functions
+/**
+ * 
+ */
 function idUnderPointer(event) {
     const x = event.clientX;
     const y = event.clientY;
     const elementMouseIsOver = document.elementFromPoint(x, y).id;
     highlightOn(elementMouseIsOver)
 }
-
+/**
+ * 
+ */
 function highlightOn(id) {
     document.getElementById(id).style.opacity = '1';
 }
 
+
+// Main highlights functions
+/**
+ * 
+ */
 function highlightOneOff() {
     function checkedOne() {
         document.getElementById('highlightOneCheck').checked = false;
@@ -42,7 +70,9 @@ function highlightOneOff() {
     }
     highlightOne.addEventListener('click', checkedOne)
 }
-
+/**
+ * 
+ */
 function highlightTwoOff() {
     function checkedTwo() {
         document.getElementById('highlightTwoCheck').checked = false;
@@ -75,7 +105,9 @@ function highlightTwoOff() {
 
     highlightTwo.addEventListener('click', checkedTwo)
 }
-
+/**
+ * 
+ */
 function highlightThreeOff() {
     function checkedThree() {
         document.getElementById('highlightThreeCheck').checked = false;
@@ -108,7 +140,9 @@ function highlightThreeOff() {
 
     highlightThree.addEventListener('click', checkedThree)
 }
-
+/**
+ * 
+ */
 function highlightFourOff() {
     function checkedFour() {
         document.getElementById('highlightFourCheck').checked = false;
@@ -141,7 +175,9 @@ function highlightFourOff() {
 
     highlightFour.addEventListener('click', checkedFour)
 }
-
+/**
+ * 
+ */
 function highlightFiveOff() {
     function checkedFive() {
         document.getElementById('highlightFiveCheck').checked = false;
@@ -174,7 +210,9 @@ function highlightFiveOff() {
 
     highlightFive.addEventListener('click', checkedFive)
 }
-
+/**
+ * 
+ */
 function highlightSixOff() {
     function checkedSix() {
         document.getElementById('highlightSixCheck').checked = false;
@@ -207,7 +245,9 @@ function highlightSixOff() {
 
     highlightSix.addEventListener('click', checkedSix)
 }
-
+/**
+ * 
+ */
 function highlightSevenOff() {
     function checkedSeven() {
         document.getElementById('highlightSevenCheck').checked = false;
@@ -240,7 +280,9 @@ function highlightSevenOff() {
 
     highlightSeven.addEventListener('click', checkedSeven)
 }
-
+/**
+ * 
+ */
 function highlightEightOff() {
     function checkedEight() {
         document.getElementById('highlightEightCheck').checked = false;
@@ -306,7 +348,9 @@ function highlightNineOff() {
 
     highlightNine.addEventListener('click', checkedNine)
 }
-
+/**
+ * 
+ */
 function highlightTenOff() {
     function checkedTen() {
         document.getElementById('highlightTenCheck').checked = false;
@@ -339,7 +383,9 @@ function highlightTenOff() {
 
     highlightTen.addEventListener('click', checkedTen)
 }
-
+/**
+ * 
+ */
 function highlightElevenOff() {
     function checkedEleven() {
         document.getElementById('highlightOneCheck').checked = false;
@@ -372,7 +418,9 @@ function highlightElevenOff() {
 
     highlightEleven.addEventListener('click', checkedEleven)
 }
-
+/**
+ * 
+ */
 function highlightTwelveOff() {
     function checkedTwelve() {
         document.getElementById('highlightTwelveCheck').checked = false;
@@ -406,7 +454,9 @@ function highlightTwelveOff() {
 
     highlightTwelve.addEventListener('click', checkedTwelve)
 }
-
+/**
+ * 
+ */
 function highlightThirteenOff() {
     function checkedThirteen() {
         document.getElementById('highlightThirteenCheck').checked = false;
@@ -421,7 +471,9 @@ function highlightThirteenOff() {
 
     highlightThirteen.addEventListener('click', checkedThirteen)
 }
-
+/**
+ * 
+ */
 function highlightFourteenOff() {
     function checkedFourteen() {
         document.getElementById('highlightFourteenCheck').checked = false;
@@ -436,7 +488,9 @@ function highlightFourteenOff() {
 
     highlightFourteen.addEventListener('click', checkedFourteen)
 }
-
+/**
+ * 
+ */
 function highlightFifteenOff() {
     function checkedFifteen() {
         document.getElementById('highlightFifteenCheck').checked = false;
@@ -452,21 +506,7 @@ function highlightFifteenOff() {
     highlightFifteen.addEventListener('click', checkedFifteen)
 }
 
-const highlightOne = document.getElementById(`highlightOneImg`);
-const highlightTwo = document.getElementById(`highlightTwoImg`);
-const highlightThree = document.getElementById(`highlightThreeImg`);
-const highlightFour = document.getElementById(`highlightFourImg`);
-const highlightFive = document.getElementById(`highlightFiveImg`);
-const highlightSix = document.getElementById(`highlightSixImg`);
-const highlightSeven = document.getElementById(`highlightSevenImg`);
-const highlightEight = document.getElementById(`highlightEightImg`);
-const highlightNine = document.getElementById(`highlightNineImg`);
-const highlightTen = document.getElementById(`highlightTenImg`);
-const highlightEleven = document.getElementById(`highlightElevenImg`);
-const highlightTwelve = document.getElementById(`highlightTwelveImg`);
-const highlightThirteen = document.getElementById(`highlightThirteenImg`);
-const highlightFourteen = document.getElementById(`highlightFourteenImg`);
-const highlightFifteen = document.getElementById(`highlightFifteenImg`);
+// Event listeners
 
 highlightOne.addEventListener(`mouseover`, idUnderPointer);
 highlightTwo.addEventListener(`mouseover`, idUnderPointer);
