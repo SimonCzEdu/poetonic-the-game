@@ -361,17 +361,21 @@
     height: 100vh;
     z-index: 1000;
 }
+
 #hiddenDiv>img {
     width: 100%;
     height: 100%;
     position: fixed;
 }
+
 #linkOne {
-    visibility: hidden;
+    opacity: 0;
 }
+
 #linkTwo {
-    visibility: hidden;
+    opacity: 0;
 }
+
 #linkButtonOne {
     position: fixed;
     top: 19.4%;
@@ -381,6 +385,7 @@
     z-index: 2;
     border-radius: 50%;
 }
+
 #linkButtonTwo {
     position: fixed;
     top: 51.4%;
@@ -389,4 +394,83 @@
     height: 23.8%;
     z-index: 2;
     border-radius: 50%;
+}
+
+/* Mobile message */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+        
+    #mobile {
+        display: flex;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2000;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mobile>p {
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    #mobile {
+        display: flex;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2000;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mobile>p {
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    #mobile {
+        display: flex;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2000;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mobile>p {
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #mobile {
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #mobile {
+        display: none;
+    }
 }
