@@ -46,7 +46,7 @@ function highlightOneOff() {
     if (document.getElementById('highlightOneCheck').checked == false) {
         highlightOne.style.opacity = '0'
     } else if (document.getElementById('highlightOneCheck').checked == true) {
-        document.getElementById('partOne').style.visibility = 'visible';
+        document.getElementById('partOne').style.opacity = 1;
         const paperSound = document.getElementById('paper')
         paperSound.loop = false;
         paperSound.play();
@@ -80,7 +80,7 @@ function highlightTwoOff() {
     if (document.getElementById('highlightTwoCheck').checked == false) {
         highlightTwo.style.opacity = '0'
     } else if (document.getElementById('highlightTwoCheck').checked == true) {
-        document.getElementById('partTwo').style.visibility = 'visible';
+        document.getElementById('partTwo').style.opacity = 1;
         const paperSound = document.getElementById('paper')
         paperSound.loop = false;
         paperSound.play();
@@ -115,7 +115,7 @@ function highlightThreeOff() {
     if (document.getElementById('highlightThreeCheck').checked == false) {
         highlightThree.style.opacity = '0'
     } else if (document.getElementById('highlightThreeCheck').checked == true) {
-        document.getElementById('partThree').style.visibility = 'visible';
+        document.getElementById('partThree').style.opacity = 1;
         const paperSound = document.getElementById('paper')
         paperSound.loop = false;
         paperSound.play();
@@ -150,7 +150,7 @@ function highlightFourOff() {
     if (document.getElementById('highlightFourCheck').checked == false) {
         highlightFour.style.opacity = '0'
     } else if (document.getElementById('highlightFourCheck').checked == true) {
-        document.getElementById('partFour').style.visibility = 'visible';
+        document.getElementById('partFour').style.opacity = 1;
         const eyeSound = document.getElementById('eye')
         eyeSound.loop = false;
         eyeSound.play();
@@ -185,7 +185,7 @@ function highlightFiveOff() {
     if (document.getElementById('highlightFiveCheck').checked == false) {
         highlightFive.style.opacity = '0'
     } else if (document.getElementById('highlightFiveCheck').checked == true) {
-        document.getElementById('partFive').style.visibility = 'visible';
+        document.getElementById('partFive').style.opacity = 1;
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
@@ -220,7 +220,7 @@ function highlightSixOff() {
     if (document.getElementById('highlightSixCheck').checked == false) {
         highlightSix.style.opacity = '0'
     } else if (document.getElementById('highlightSixCheck').checked == true) {
-        document.getElementById('partSix').style.visibility = 'visible';
+        document.getElementById('partSix').style.opacity = 1;
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
@@ -255,7 +255,7 @@ function highlightSevenOff() {
     if (document.getElementById('highlightSevenCheck').checked == false) {
         highlightSeven.style.opacity = '0'
     } else if (document.getElementById('highlightSevenCheck').checked == true) {
-        document.getElementById('partSeven').style.visibility = 'visible';
+        document.getElementById('partSeven').style.opacity = 1;
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
@@ -290,7 +290,7 @@ function highlightEightOff() {
     if (document.getElementById('highlightEightCheck').checked == false) {
         highlightEight.style.opacity = '0'
     } else if (document.getElementById('highlightEightCheck').checked == true) {
-        document.getElementById('partEight').style.visibility = 'visible';
+        document.getElementById('partEight').style.opacity = 1;
         const markerSound = document.getElementById('marker')
         markerSound.loop = false;
         markerSound.play();
@@ -323,7 +323,7 @@ function highlightNineOff() {
     if (document.getElementById('highlightNineCheck').checked == false) {
         highlightNine.style.opacity = '0'
     } else if (document.getElementById('highlightNineCheck').checked == true) {
-        document.getElementById('partNine').style.visibility = 'visible';
+        document.getElementById('partNine').style.opacity = 1;
         const markerSound = document.getElementById('marker')
         markerSound.loop = false;
         markerSound.play();
@@ -358,7 +358,7 @@ function highlightTenOff() {
     if (document.getElementById('highlightTenCheck').checked == false) {
         highlightTen.style.opacity = '0'
     } else if (document.getElementById('highlightTenCheck').checked == true) {
-        document.getElementById('partTen').style.visibility = 'visible';
+        document.getElementById('partTen').style.opacity = 1;
         const markerSound = document.getElementById('marker')
         markerSound.loop = false;
         markerSound.play();
@@ -393,7 +393,7 @@ function highlightElevenOff() {
     if (document.getElementById('highlightElevenCheck').checked == false) {
         highlightEleven.style.opacity = '0'
     } else if (document.getElementById('highlightElevenCheck').checked == true) {
-        document.getElementById('partEleven').style.visibility = 'visible';
+        document.getElementById('partEleven').style.opacity = 1;
         const stampSound = document.getElementById('stamp')
         stampSound.loop = false;
         stampSound.play();
@@ -428,8 +428,8 @@ function highlightTwelveOff() {
     if (document.getElementById('highlightTwelveCheck').checked == false) {
         highlightTwelve.style.opacity = '0'
     } else if (document.getElementById('highlightTwelveCheck').checked == true) {
-        document.getElementById('partTwelve').style.visibility = 'visible';
-        document.getElementById('partThirteen').style.visibility = 'visible';
+        document.getElementById('partTwelve').style.opacity = 1;
+        document.getElementById('partThirteen').style.opacity = 1;
         const stapleSound = document.getElementById('staple')
         stapleSound.loop = false;
         stapleSound.play();
